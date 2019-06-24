@@ -1,35 +1,35 @@
 # Overview
-Programming challenge on creating a simple app that displays actors from the movie database.
+Programming challenge to create an Android app that allows a user to search and display movies from The Movie DB.
 
 <img src="./screenshot.png">
 
 # Description
-Create a single screen app that allows a user to search for an actor and display the results.
+Create a single screen app that allows a user to search for movies and display the results in a list.
 
-Use The Movie Database API and the following the endpoint: /search/person
+Use the following the endpoint from The Movie Database API: /search/movie
 
-The user will be able to enter their search query and, upon enter, the app will call the endpoint and collect the results to display. The app must display all entities in the list and it must be sorted in descending order by `vote_average` (9.0, 8.7, 8.5, etc). The `vote_average` for a Person entity is a calculated value. The calculation is the average `vote_average` of all entities in the `known_for` array.
+The user will be able to enter their search query and, upon enter, the app will call the endpoint and collect the results to display. The app should display all entities in the list and be sorted in descending order of `vote_average` (9.0, 8.7, 8.5, etc).
 
-The layout for displaying a person will contain the following data: `profile_path` (image), `name`, list of `original_title` and `vote_average` in `known_for`, and the calculated value for `vote_average` (average of all `vote_average` in `known_for`).
+The layout for displaying a movie should contain the following data: `backdrop_path` (image), `title`, `release_date`, and `vote_average`.
+
+The user will be able to favorite an entity by simply tapping on it. If the entity was previously a favorite, then the favorite is removed and vice versa.
 
 ### UI
-Matching the exact design is not important; however the layout should be the same.
+Matching the exact design is not important; however the layout should be similar to the provided screenshot.
 
 ### API Key
 `c352da303cecea898250194bd5cc0dc5`
 
 ### Documentation
-[Search People](https://developers.themoviedb.org/3/search/search-people)
+[Search Movies](https://developers.themoviedb.org/3/search/search-movies)
 [Images](https://developers.themoviedb.org/3/getting-started/images)
 `https://image.tmdb.org/t/p/original/{image}`
 
 # Feature Priority
 - Search for entities against API
-- Display entities
-
-# Bonus points
-- Unit tests
-- Pagination
+- Display of entities in list
+- Overall Design
+- Ability to favorite entities
 
 # Submission
 Once complete, submit a pull request against this repo.
