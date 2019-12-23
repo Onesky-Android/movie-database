@@ -12,8 +12,6 @@ The user will be able to enter their search query and, upon enter, the app will 
 
 The layout for displaying a movie should contain the following data: `backdrop_path` (image), `title`, `release_date`, and `vote_average`.
 
-The user will be able to favorite an entity by simply tapping on it. If the entity was previously a favorite, then the favorite is removed and vice versa.
-
 ### UI
 Matching the exact design is not important; however the layout should be similar to the provided screenshot.
 
