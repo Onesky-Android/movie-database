@@ -1,7 +1,7 @@
 # Overview
 Programming challenge to create an Android app that allows a user to search and display movies from The Movie DB.
 
-<img src="./screenshot.png">
+<img src="./Screenshot.png">
 
 # Description
 Create a single screen app that allows a user to search for movies and display the results in a list.
